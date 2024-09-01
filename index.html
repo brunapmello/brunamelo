@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilo geral */
+        body 
+        
+        
+        {
+
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Altura total da tela */
+            display: flex; /* Flexbox para o layout */
+            justify-content: space-between; /* Espaça o conteúdo entre a esquerda e a direita */
+            align-items: center; /* Centraliza verticalmente */
+            font-family: "Archivo Black", system-ui; /* Fonte padrão */
+        }
+
+
+        /* Estilo para o contêiner de cabeçalhos */
+        .content-left {
+            display: flex;
+            flex-direction: column; /* Alinha os elementos um abaixo do outro */
+            gap: 10px; /* Espaçamento entre h1 e h2 */
+            padding-left: 20px; /* Espaçamento da margem esquerda */
+        }
+
+        h1 {
+            color: #422437;
+            text-shadow: 1px 1px 1px rgba(66, 66, 66, 0.514);
+            margin: 0; /* Remove margens padrão */
+        }
+
+        h2 {
+            color: white;
+            text-shadow: 1px 1px 1px #1a171694;
+            font-family: "Kanit", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+            margin: 0; /* Remove margens padrão */
+        }
+
+        /* Estilo para o contêiner dos links */
+        .content-right {
+            display: flex;
+            flex-direction: column; /* Alinha os links um abaixo do outro */
+            align-items: flex-end; /* Alinha os links à direita dentro do contêiner */
+            gap: 15px; /* Espaçamento entre os links */
+            padding-right: 20px; /* Espaçamento da margem direita */
+        }
+
+        /* Estilo dos links */
+        .content-right a {
+            text-decoration: none; /* Remove o sublinhado dos links */
+            padding: 10px 20px; /* Adiciona espaçamento interno */
+            border: 2px solid #ccc; /* Define a borda arredondada */
+            border-radius: 15px; /* Bordas arredondadas */
+            background-color: white; /* Define o fundo branco */
+            color: #543549; /* Define a cor do texto */
+            font-size: 16px; /* Define o tamanho da fonte */
+            transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
+        }
+
+        /* Efeito hover nos links */
+        .content-right a:hover {
+            background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+            color: #000; /* Cor do texto ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Conteúdo da esquerda (títulos) -->
+    <div class="content-left">
+        <h1>Bruna Melo</h1>
+        <h2>Seja Bem-Vindo!</h2>
+    </div>
+
+    <!-- Conteúdo da direita (links) -->
+    <div class="content-right">
+        <a href="sobremim.html">Sobre mim</a>
+        <a href="formacao.html">Formação</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html">Contato</a>
+    </div>
+
+</body>
+</html>

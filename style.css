@@ -1,0 +1,38 @@
+@charset "UTF-8";
+ 
+* {
+    font-family: "Archivo Black", system-ui;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #9f9590;
+}
+
+h1 {
+    color: #422437;
+    ;
+    text-shadow: 1px 1px 1px rgba(66, 66, 66, 0.514);
+}
+
+h2 {
+    color: white;
+    text-shadow: 1px 1px 1px #ffe7df94;
+
+    font-family:"Kanit", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-shadow: rgb(197, 170, 170);
+      }
+
+        nav > p > a {
+            background-color: white;
+    text-decoration: none;
+    color: #543549;
+    
+        }
+footer > p {
+    text-shadow: #f1ecec88;
+}
+
